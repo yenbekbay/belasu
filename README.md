@@ -1,4 +1,4 @@
-# Clinic website
+# Clinic website [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/yenbekbay/clinic/master/LICENSE)
 
 Website for a clinic on ModX Revolution.
 
