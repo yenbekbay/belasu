@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'quip',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '1b54411e692872a1ef6eca0660c2af72',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => '1ba401db46bd10f0589a3aed22cf949d',
+  'native_key' => 'quip.allowed_tags',
+  'object' => '{"key":"quip.allowed_tags","value":"<b><i><br>","xtype":"textfield","namespace":"quip","area":"Tags","editedon":null}',
+);

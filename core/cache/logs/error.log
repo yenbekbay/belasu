@@ -1,0 +1,91 @@
+[2012-08-16 19:30:23] (ERROR @ /connectors/workspace/providers.php) Error 23000 executing statement:
+INSERT INTO `bel_transport_providers` (`name`, `description`, `service_url`, `username`, `api_key`, `created`) VALUES ('modx.com', '', 'http://rest.modx.com/extras/', '', '', '2012-08-16 19:30:23')
+Array
+(
+    [0] => 23000
+    [1] => 1062
+    [2] => Duplicate entry 'modx.com' for key 'name'
+)
+
+[2012-08-16 20:09:19] (ERROR @ /connectors/workspace/packages-rest.php) Could not connect to provider at: http://rest.modx.com/extras/
+[2012-08-16 20:09:19] (ERROR @ /connectors/workspace/packages-rest.php) Could not connect to provider at: http://rest.modx.com/extras/
+[2012-08-16 20:10:16] (ERROR @ /connectors/workspace/packages.php) Could not connect to provider at: http://rest.modx.com/extras/
+[2012-08-16 20:53:48] (ERROR @ /connectors/resource/index.php) Error caching lexicon topic lexicon/ru/core/resource
+[2012-08-16 21:47:59] (ERROR @ /connectors/browser/directory.php) Error caching lexicon topic lexicon/ru/core/source
+[2012-08-17 11:27:13] (ERROR @ /connectors/workspace/packages-rest.php) Could not connect to provider at: http://rest.modx.com/extras/
+[2012-08-17 12:02:44] (ERROR @ /connectors/element/index.php) Error caching lexicon topic lexicon/ru/core/default
+[2012-08-17 14:41:11] (ERROR @ /connectors/element/index.php) Error caching lexicon topic lexicon/ru/core/default
+[2012-08-17 14:48:18] (ERROR @ /connectors/element/propertyset.php) Error caching lexicon topic lexicon/ru/core/default
+[2012-08-17 16:43:47] (ERROR @ /connectors/element/template.php) modTemplateVarTemplate: Attempt to set NOT NULL field rank to NULL
+[2012-08-18 13:31:36] (ERROR @ /index.php) `[[+title]]` is not a valid integer and may not be passed to makeUrl()
+[2012-08-18 15:27:11] (ERROR @ /connectors/resource/index.php) Could not cache context settings for web.
+[2012-08-18 18:07:12] (ERROR @ /connectors/system/phpthumb.php) phpThumb was unable to generate a thumbnail for: W:\domains\belasu.com\core\cache\phpthumb\phpThumb_cache_belasu.com_src527f4635a9dec5b55de5e4e8e1191ce5_paradf896d45f319fa323d889e84ccb98c5_dat0.jpeg
+[2012-08-18 18:07:12] (ERROR @ /connectors/system/phpthumb.php) Error outputting thumbnail:
+OutputThumbnail() failed because !is_resource($this->gdimg_output) in file "phpthumb.class.php" on line 557
+[2012-08-18 19:25:38] (ERROR @ /connectors/element/index.php) Error caching lexicon topic lexicon/ru/core/default
+[2012-08-18 19:25:38] (ERROR @ /connectors/element/index.php) Error caching action map mgr/actions
+[2012-08-18 20:59:06] (ERROR @ /index.php) Could not cache resource 1
+[2012-08-21 10:55:04] (ERROR @ /connectors/resource/index.php) Error caching lexicon topic lexicon/ru/core/resource
+[2012-08-21 11:29:55] (ERROR @ /connectors/resource/index.php) Resource URI chief already exists for resource id = 18; skipping duplicate resource URI for resource id = 19
+[2012-08-21 21:28:54] (ERROR @ /connectors/resource/index.php) Could not cache context settings for web.
+[2012-08-22 12:20:10] (ERROR @ /connectors/workspace/packages.php) Could not connect to provider at: http://rest.modx.com/extras/
+[2012-08-22 16:25:48] (ERROR @ /connectors/workspace/packages-rest.php) Could not connect to provider at: http://rest.modx.com/extras/
+[2012-08-22 16:26:26] (ERROR @ /connectors/workspace/packages-rest.php) Could not connect to provider at: http://rest.modx.com/extras/
+[2012-08-22 16:26:26] (ERROR @ /connectors/workspace/packages-rest.php) Could not connect to provider at: http://rest.modx.com/extras/
+[2012-08-22 16:26:26] (ERROR @ /connectors/workspace/packages.php) Could not connect to provider at: http://rest.modx.com/extras/
+[2012-08-22 16:26:49] (ERROR @ /connectors/workspace/packages.php) Error caching lexicon topic lexicon/ru/core/workspace
+[2012-08-22 16:27:32] (ERROR @ /connectors/workspace/packages-rest.php) Could not find package manifest at W:/domains/belasu.com/core/packages/easycopyright-1.1.1-pl/manifest.php
+[2012-08-22 16:27:32] (ERROR @ /connectors/workspace/packages-rest.php) Could not unpack package W:/domains/belasu.com/core/packages/easycopyright-1.1.1-pl.transport.zip to W:/domains/belasu.com/core/packages/. SIG: easycopyright-1.1.1-pl
+[2012-08-22 16:31:32] (ERROR @ /connectors/workspace/packages.php) Could not find package manifest at W:/domains/belasu.com/core/packages/easycopyright-1.1.1-pl/manifest.php
+[2012-08-22 16:31:32] (ERROR @ /connectors/workspace/packages.php) Could not unpack package W:/domains/belasu.com/core/packages/easycopyright-1.1.1-pl.transport.zip to W:/domains/belasu.com/core/packages/. SIG: easycopyright-1.1.1-pl
+[2012-08-22 16:31:42] (ERROR @ /connectors/workspace/packages.php) Could not find package manifest at W:/domains/belasu.com/core/packages/easycopyright-1.1.1-pl/manifest.php
+[2012-08-22 16:31:42] (ERROR @ /connectors/workspace/packages.php) Could not unpack package W:/domains/belasu.com/core/packages/easycopyright-1.1.1-pl.transport.zip to W:/domains/belasu.com/core/packages/. SIG: easycopyright-1.1.1-pl
+[2012-08-22 16:32:22] (ERROR @ /connectors/workspace/packages-rest.php) Could not find package manifest at W:/domains/belasu.com/core/packages/easycopyright-1.1.1-pl/manifest.php
+[2012-08-22 16:32:22] (ERROR @ /connectors/workspace/packages-rest.php) Could not unpack package W:/domains/belasu.com/core/packages/easycopyright-1.1.1-pl.transport.zip to W:/domains/belasu.com/core/packages/. SIG: easycopyright-1.1.1-pl
+[2012-08-22 16:33:33] (ERROR @ /connectors/workspace/packages.php) Could not find package manifest at W:/domains/belasu.com/core/packages/easycopyright-1.1.1-pl/manifest.php
+[2012-08-22 16:33:33] (ERROR @ /connectors/workspace/packages.php) Could not unpack package W:/domains/belasu.com/core/packages/easycopyright-1.1.1-pl.transport.zip to W:/domains/belasu.com/core/packages/. SIG: easycopyright-1.1.1-pl
+[2012-08-22 16:38:35] (ERROR @ /connectors/workspace/packages.php) Could not find package manifest at W:/domains/belasu.com/core/packages/easycopyright-1.1.1-pl/manifest.php
+[2012-08-22 16:38:35] (ERROR @ /connectors/workspace/packages.php) Could not unpack package W:/domains/belasu.com/core/packages/easycopyright-1.1.1-pl.transport.zip to W:/domains/belasu.com/core/packages/. SIG: easycopyright-1.1.1-pl
+[2012-08-22 16:38:37] (ERROR @ /connectors/workspace/packages.php) Could not find package manifest at W:/domains/belasu.com/core/packages/easycopyright-1.1.1-pl/manifest.php
+[2012-08-22 16:38:37] (ERROR @ /connectors/workspace/packages.php) Could not unpack package W:/domains/belasu.com/core/packages/easycopyright-1.1.1-pl.transport.zip to W:/domains/belasu.com/core/packages/. SIG: easycopyright-1.1.1-pl
+[2012-08-25 13:22:07] (ERROR @ /connectors/layout/modx.config.js.php) Error caching lexicon topic lexicon/ru/core/resource
+[2012-08-25 13:50:11] (ERROR @ /connectors/workspace/packages-rest.php) Could not connect to provider at: http://rest.modx.com/extras/
+[2012-08-25 13:50:11] (ERROR @ /connectors/workspace/packages-rest.php) Could not connect to provider at: http://rest.modx.com/extras/
+[2012-08-25 15:27:43] (ERROR @ /index.php) `` is not a valid integer and may not be passed to makeUrl()
+[2012-08-25 15:29:16] (ERROR @ /index.php) `` is not a valid integer and may not be passed to makeUrl()
+[2012-08-25 15:29:54] (ERROR @ /index.php) `` is not a valid integer and may not be passed to makeUrl()
+[2012-08-25 15:35:14] (ERROR @ /index.php) `` is not a valid integer and may not be passed to makeUrl()
+[2012-08-25 15:36:29] (ERROR @ /index.php) `` is not a valid integer and may not be passed to makeUrl()
+[2012-08-25 15:43:04] (ERROR @ /index.php) `` is not a valid integer and may not be passed to makeUrl()
+[2012-08-25 15:43:08] (ERROR @ /index.php) `` is not a valid integer and may not be passed to makeUrl()
+[2012-08-25 15:44:05] (ERROR @ /index.php) `` is not a valid integer and may not be passed to makeUrl()
+[2012-08-25 15:44:13] (ERROR @ /index.php) `` is not a valid integer and may not be passed to makeUrl()
+[2012-08-25 15:44:27] (ERROR @ /index.php) `` is not a valid integer and may not be passed to makeUrl()
+[2012-08-25 15:44:47] (ERROR @ /index.php) `` is not a valid integer and may not be passed to makeUrl()
+[2012-08-25 15:45:55] (ERROR @ /index.php) `` is not a valid integer and may not be passed to makeUrl()
+[2012-08-25 15:46:10] (ERROR @ /index.php) `` is not a valid integer and may not be passed to makeUrl()
+[2012-08-25 15:47:18] (ERROR @ /index.php) `` is not a valid integer and may not be passed to makeUrl()
+[2012-08-25 15:48:14] (ERROR @ /index.php) `` is not a valid integer and may not be passed to makeUrl()
+[2012-08-25 15:48:58] (ERROR @ /index.php) `` is not a valid integer and may not be passed to makeUrl()
+[2012-08-25 15:51:19] (ERROR @ /index.php) `` is not a valid integer and may not be passed to makeUrl()
+[2012-08-25 15:51:53] (ERROR @ /index.php) `` is not a valid integer and may not be passed to makeUrl()
+[2012-08-25 15:52:37] (ERROR @ /index.php) `` is not a valid integer and may not be passed to makeUrl()
+[2012-08-25 15:53:59] (ERROR @ /index.php) `` is not a valid integer and may not be passed to makeUrl()
+[2012-08-25 15:54:25] (ERROR @ /index.php) `` is not a valid integer and may not be passed to makeUrl()
+[2012-08-25 15:55:27] (ERROR @ /index.php) `` is not a valid integer and may not be passed to makeUrl()
+[2012-08-25 16:19:18] (ERROR @ /index.php) `` is not a valid integer and may not be passed to makeUrl()
+[2012-08-25 16:48:44] (ERROR @ /index.php) `` is not a valid integer and may not be passed to makeUrl()
+[2012-08-25 16:49:57] (ERROR @ /index.php) `` is not a valid integer and may not be passed to makeUrl()
+[2012-08-25 17:13:08] (ERROR @ /index.php) `` is not a valid integer and may not be passed to makeUrl()
+[2012-08-25 17:13:12] (ERROR @ /index.php) `` is not a valid integer and may not be passed to makeUrl()
+[2012-08-25 17:13:22] (ERROR @ /index.php) `` is not a valid integer and may not be passed to makeUrl()
+[2012-08-25 17:13:25] (ERROR @ /index.php) `` is not a valid integer and may not be passed to makeUrl()
+[2012-08-25 17:17:52] (ERROR @ /index.php) `` is not a valid integer and may not be passed to makeUrl()
+[2012-08-25 17:18:15] (ERROR @ /index.php) `` is not a valid integer and may not be passed to makeUrl()
+[2012-08-25 17:27:08] (ERROR @ /index.php) `` is not a valid integer and may not be passed to makeUrl()
+[2012-08-25 17:28:22] (ERROR @ /index.php) `` is not a valid integer and may not be passed to makeUrl()
+[2012-08-27 21:04:24] (ERROR @ /connectors/resource/index.php) Error caching lexicon topic lexicon/ru/core/default
+[2012-08-27 21:24:13] (ERROR @ /connectors/workspace/package/index.php) Невозможно открыть файл для чтения: migx-2.0.0-beta1.transport.zip?revolution_version=Revolution-2.2.4-pl
+[2012-08-27 21:24:13] (ERROR @ /connectors/workspace/package/index.php) MODX could not download the file. You must enable allow_url_fopen, cURL or fsockopen to use remote transport packaging.
+[2012-08-27 21:24:13] (ERROR @ /connectors/workspace/package/index.php) Невозможно осуществить передачу пакета migx-2.0.0-beta1.transport.zip в W:/domains/belasu.com/core/packages/.
+[2012-08-27 22:01:12] (ERROR @ /connectors/element/propertyset.php) Error caching lexicon topic lexicon/en/core/default

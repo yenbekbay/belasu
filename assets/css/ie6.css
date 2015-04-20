@@ -1,0 +1,26 @@
+div, section, header {
+	zoom: 1;
+}
+#logo {
+	position: absolute;
+	left: 15px;
+}
+#contact .office {
+	top: 55px;
+}
+h6.border b {
+	position: relative;
+	top: 5px;
+}
+h1.border b {
+	position: relative;
+	top: 17px;
+}
+h1.border {
+	margin-top: -17px;
+}
+.menu li li.hover > a, .menu li li.hover, .menu li li a.hover {
+	outline: 0;
+	text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.1); 
+	background: #548231!important; 
+}

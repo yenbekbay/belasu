@@ -1,0 +1,47 @@
+.span_11 { width: 88.6666%; }
+.span_10 { width: 80%; }
+.span_9 { width: 71.3333%; }
+.span_8 { width: 63.6666%; }
+.span_7 { width: 55.3333%; }
+.span_6 { width: 46.6666%; }
+.span_5 { width: 38.6666%; }
+.span_4 { width: 31.3333%; }
+.span_3 { width: 22%; }
+.span_2 { width: 13.6666%; }
+.span_1 { width: 5.33333%; }
+.column:last-child {
+	margin-right: 0;
+}
+.column .column {
+	margin: 0;
+}
+.column .column:first-child {
+	margin: 0 2% 0 0;
+}
+.ul.list li {
+	list-style-position: inside;
+}
+.prev-link, .next-link {
+	position: static;
+	padding: 0;
+	height: auto;
+	width: 30px;
+	background: none!important;
+	box-sizing: content-box;
+}	
+.prev-link {
+	float: left;
+	margin-left: 1%;
+	padding-right: 10%;
+}
+.next-link {
+	float: right;
+	margin-right: 1%;
+	padding-left: 10%;
+}	
+.prev-link span, .next-link span {
+	background-image: url(../img/arrows-white.png);
+}
+thead td {
+	border: none;
+}

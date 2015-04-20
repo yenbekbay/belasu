@@ -1,0 +1,50 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'unique_key' => 'text',
+  'related_objects' => 
+  array (
+    'Action' => 
+    array (
+      '1f08982fcbef0042345356c304387b33' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 
+        array (
+          0 => 'namespace',
+          1 => 'controller',
+        ),
+        'class' => 'modAction',
+        'object' => '{"id":1,"namespace":"quip","controller":"index","haslayout":1,"lang_topics":"quip:default,file","assets":"","help_url":"","parent":0}',
+        'guid' => 'bcc166f5c45c16c072991ee4ad364f10',
+        'native_key' => 1,
+        'signature' => '301d299278179718270d8bee19129228',
+      ),
+    ),
+  ),
+  'related_object_attributes' => 
+  array (
+    'Action' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 
+      array (
+        0 => 'namespace',
+        1 => 'controller',
+      ),
+    ),
+  ),
+  'namespace' => 'quip',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '65d5c8072c019f2b534462101336785b',
+  'package' => 'modx',
+  'class' => 'modMenu',
+  'signature' => '888d5cd09b8327474c3925e728ed305c',
+  'native_key' => 'quip',
+  'object' => '{"text":"quip","parent":"components","action":1,"description":"quip_desc","icon":"images\\/icons\\/plugin.gif","menuindex":0,"params":"","handler":"","permissions":"","namespace":"core"}',
+);

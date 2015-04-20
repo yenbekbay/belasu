@@ -1,0 +1,67 @@
+<?php return array (
+  'unique_key' => 'category',
+  'preserve_keys' => false,
+  'update_object' => true,
+  'related_objects' => 
+  array (
+    'Snippets' => 
+    array (
+      '809e1ea777474e9f124c48bbc35c1f2a' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'name',
+        'class' => 'modSnippet',
+        'object' => '{"id":22,"source":0,"property_preprocess":0,"name":"siblingNav","description":"","editor_type":0,"category":8,"cache_type":0,"snippet":"\\/**\\n * selfLink\\n * To navigate next, previous from the current resource or from the given resource\\n * It can also show all or limited left\\/right and first\\/last siblings\\n * Its also possible to navigate to childs of more than one parents \\n *\\n *\\n * Options\\n *\\n * id - The id where the direction is from. Default the current resource id\\n * \\n * rowTpl - snrow\\n * selfTpl - snself\\n * prevTpl - snprev\\n * nextTpl - snnext\\n * firstTpl - snfirst\\n * lastTpl - snlast\\n * placeholderPrefix - .sn\\n * id\\n * parents - false\\n * showDeleted - 0\\n * showUnpublished - 0\\n * showHidden - 0\\n * ignoreHidden - false\\n * sortOrder - \'ASC\'\\n * sortBy - menuindex\\n * limit - false\\n *\\n * Example usage:\\n * [[!selfLink? &id=`[[*id]]` &direction=`next` &tpl=`commonName`]]\\n *\\n * @author Bruno Perner <b.perner@gmx.de>\\n * @version 0.2-rc1\\n *\\/\\n\\n\\/\\/$nav = $modx->getService(\'siblingnav\',\'SiblingNav\',$modx->getOption(\'siblingnav.core_path\',null,$modx->getOption(\'core_path\').\'components\\/siblingnav\\/\').\'model\\/siblingnav\\/\',$scriptProperties);\\n\\ninclude_once $modx->getOption(\'siblingnav.core_path\',null,$modx->getOption(\'core_path\').\'components\\/siblingnav\\/model\\/siblingnav\\/\').\'siblingnav.class.php\';\\n$nav = new SiblingNav($modx,$scriptProperties);\\n\\nif (!($nav instanceof SiblingNav)) return \'\';\\n\\n\\nreturn $nav->run();","locked":0,"properties":"a:0:{}","moduleguid":"","static":0,"static_file":"","content":"\\/**\\n * selfLink\\n * To navigate next, previous from the current resource or from the given resource\\n * It can also show all or limited left\\/right and first\\/last siblings\\n * Its also possible to navigate to childs of more than one parents \\n *\\n *\\n * Options\\n *\\n * id - The id where the direction is from. Default the current resource id\\n * \\n * rowTpl - snrow\\n * selfTpl - snself\\n * prevTpl - snprev\\n * nextTpl - snnext\\n * firstTpl - snfirst\\n * lastTpl - snlast\\n * placeholderPrefix - .sn\\n * id\\n * parents - false\\n * showDeleted - 0\\n * showUnpublished - 0\\n * showHidden - 0\\n * ignoreHidden - false\\n * sortOrder - \'ASC\'\\n * sortBy - menuindex\\n * limit - false\\n *\\n * Example usage:\\n * [[!selfLink? &id=`[[*id]]` &direction=`next` &tpl=`commonName`]]\\n *\\n * @author Bruno Perner <b.perner@gmx.de>\\n * @version 0.2-rc1\\n *\\/\\n\\n\\/\\/$nav = $modx->getService(\'siblingnav\',\'SiblingNav\',$modx->getOption(\'siblingnav.core_path\',null,$modx->getOption(\'core_path\').\'components\\/siblingnav\\/\').\'model\\/siblingnav\\/\',$scriptProperties);\\n\\ninclude_once $modx->getOption(\'siblingnav.core_path\',null,$modx->getOption(\'core_path\').\'components\\/siblingnav\\/model\\/siblingnav\\/\').\'siblingnav.class.php\';\\n$nav = new SiblingNav($modx,$scriptProperties);\\n\\nif (!($nav instanceof SiblingNav)) return \'\';\\n\\n\\nreturn $nav->run();"}',
+        'guid' => '7937a7c35a0f82823ef0e029f49856e7',
+        'native_key' => 22,
+        'signature' => 'acb8845068b4060083cff4131858abe4',
+      ),
+    ),
+  ),
+  'related_object_attributes' => 
+  array (
+    'Chunks' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'name',
+    ),
+    'TemplateVars' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'name',
+    ),
+    'Templates' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'templatename',
+    ),
+    'Snippets' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'name',
+    ),
+  ),
+  'namespace' => 'siblingnav',
+  'resolve' => 
+  array (
+    0 => 
+    array (
+      'type' => 'file',
+      'body' => '{"source":"siblingnav-1.0.1-pl\\/modCategory\\/85a8a28b7434a1c9455299053d05f0ad\\/0\\/","target":"return MODX_CORE_PATH . \'components\\/\';","name":"siblingnav"}',
+    ),
+  ),
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '2e5e78b8cdaf8bf964b5b38c6a56e6f8',
+  'package' => 'modx',
+  'class' => 'modCategory',
+  'signature' => '85a8a28b7434a1c9455299053d05f0ad',
+  'native_key' => 1,
+  'object' => '{"id":1,"parent":0,"category":"siblingnav"}',
+);
